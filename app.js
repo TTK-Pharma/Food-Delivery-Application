@@ -44,7 +44,7 @@ app.use('/auth', authRoutes);
 const port = 5500;
 const hostname = 'localhost';
 
-const atlasDbUrl = 'mongodb+srv://rtmttk555:ts9mQGCP0jSjs8Xt@practice.rqq1xuw.mongodb.net/zomato-clone?retryWrites=true&w=majority';
+const atlasDbUrl = 'mongodb+srv://username:<>.mongodb.net/zomato-clone?retryWrites=true&w=majority';
 
 mongoose.connect(atlasDbUrl, {
   useNewUrlParser: true,
